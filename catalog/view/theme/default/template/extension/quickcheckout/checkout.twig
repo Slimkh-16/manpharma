@@ -1090,7 +1090,7 @@ function loadConfirm() {
 				$('#payment').after('<div class="text-center"><i class="fa fa-spinner fa-spin fa-5x"></i></div>');
 				{% endif %}
 				
-				$('html, body').animate({ scrollTop: $('#terms').offset().top }, 'slow');
+				$('html, body').animate({ scrollTop: 0}, 'slow');
 				
 				disableCheckout();
                 $('.fa-spinner').remove();
